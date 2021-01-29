@@ -1,51 +1,22 @@
 {
-  "_args": [
-    [
-      "github:jaroslawkrol/react-native-selectable-text#feature/medium_platform_behaviour",
-      "/Users/marcingazda/Documents/LiteWeb/Git/geniusFormula-mobile"
-    ]
-  ],
-  "_from": "github:jaroslawkrol/react-native-selectable-text#feature/medium_platform_behaviour",
-  "_id": "@astrocoders/react-native-selectable-text@github:jaroslawkrol/react-native-selectable-text#ec7ab2fb9ddb3b21910049e4fbf3f1a494b7dae4",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/@astrocoders/react-native-selectable-text",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "github:jaroslawkrol/react-native-selectable-text#feature/medium_platform_behaviour",
-    "rawSpec": "github:jaroslawkrol/react-native-selectable-text#feature/medium_platform_behaviour",
-    "saveSpec": "github:jaroslawkrol/react-native-selectable-text#feature/medium_platform_behaviour",
-    "fetchSpec": null,
-    "gitCommittish": "feature/medium_platform_behaviour"
+  "name": "@astrocoders/react-native-selectable-text",
+  "version": "1.4.0",
+  "description": "React Native component used to provide the features of pass different context menu items and events",
+  "main": "index.js",
+  "homepage": "https://github.com/Astrocoders/react-native-selectable-text",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "/"
+  "keywords": [
+    "react-native"
   ],
-  "_resolved": "github:jaroslawkrol/react-native-selectable-text#ec7ab2fb9ddb3b21910049e4fbf3f1a494b7dae4",
-  "_spec": "github:jaroslawkrol/react-native-selectable-text#feature/medium_platform_behaviour",
-  "_where": "/Users/marcingazda/Documents/LiteWeb/Git/geniusFormula-mobile",
-  "author": {
-    "name": "Astrocoders",
-    "email": "contact@astrocoders.com"
+  "author": "Astrocoders <contact@astrocoders.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
   },
   "dependencies": {
     "fast-memoize": "^2.5.1",
     "uuid": "^3.3.2"
-  },
-  "description": "React Native component used to provide the features of pass different context menu items and events",
-  "homepage": "https://github.com/Astrocoders/react-native-selectable-text",
-  "keywords": [
-    "react-native"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "@astrocoders/react-native-selectable-text",
-  "peerDependencies": {
-    "react-native": "^0.41.2"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.4.0"
+  }
 }
