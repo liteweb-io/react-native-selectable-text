@@ -59,8 +59,8 @@ const mapHighlightsRanges = (value, highlights) => {
 }
 
 const mapBolds = (value, font) => {
-  const bolds = value.match(/\<b\>[a-zA-Z0-9_ .%!?",/ąęóśźżćłńĄĘÓŚŻŹĆŁŃ–-]*\<\/b\>/g);
-  const split = value.split(/\<b\>[a-zA-Z0-9_ .%!?",/ąęóśźżćłńĄĘÓŚŻŹĆŁŃ–-]*\<\/b\>/g);
+  const bolds = value.match(/\<b\>[a-zA-Z0-9_ .%!?",'`/ąęóśźżćłńĄĘÓŚŻŹĆŁŃ–-]*\<\/b\>/g);
+  const split = value.split(/\<b\>[a-zA-Z0-9_ .%!?",'`/ąęóśźżćłńĄĘÓŚŻŹĆŁŃ–-]*\<\/b\>/g);
   return (
     <Text allowFontScaling={false} selectable>
       {
